@@ -1,0 +1,54 @@
+.hero-container,
+.hero-image {
+    height: 45rem;
+}
+
+.form-control {
+    border: solid 2px #000;
+}
+
+.btn-rest,
+.btn-sum {
+    background-color: #000;
+    color: #fff;
+    border: #fff solid 2px;
+}
+
+.btn-rest:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-sum:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+
+    .hero-container,
+    .hero-image {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hero-container,
+    .hero-image {
+        height: 18rem;
+        margin: unset !important;
+    }
+}
+
+@media (max-width: 395px) {
+
+    .hero-container,
+    .hero-image {
+        height: 15rem;
+        width: 100%;
+        margin: unset !important;
+    }
+}

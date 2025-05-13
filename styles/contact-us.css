@@ -1,0 +1,21 @@
+.btn-form {
+    background-color: #000;
+    color: #fff;
+    border: #fff solid 2px;
+    cursor: pointer;
+}
+
+.btn-form:hover,
+.btn-form:focus,
+.btn-form:active {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: #fff solid 2px !important;
+    box-shadow: none !important;
+}
+
+.btn-form:disabled {
+    background-color: #0a0a0a;
+    border: #1c1c1c solid 2px;
+    cursor: not-allowed;
+}

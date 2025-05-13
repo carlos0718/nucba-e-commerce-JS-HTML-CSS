@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #717c8c;
+    --Text-Logo-color: #fafafa;
+    --black-color: #000;
+    --secondary-color: #2ecc71;
+    --bg-color-category: #f0f8ff;
+    --font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.txt-gradient {
+    color: var(--Text-Logo-color);
+    background: linear-gradient(90deg, var(--Text-Logo-color), var(--primary-color));
+    color: transparent;
+    background-clip: text;
+}
+
+.navbar-brand:hover {
+    background: linear-gradient(90deg, var(--Text-Logo-color), var(--primary-color));
+    color: transparent;
+    background-clip: text;
+}
+
+
+.nav-link {
+    color: var(--black-color);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #ffffff;
+    background-color: #297fff
+}
+
+.isActive {
+    color: #ffffff;
+    background-color: #297fff;
+    border-radius: 7px;
+}
+
+.bg-navbar {
+    background: var(--black-color);
+}
+
+.bg-footer {
+    background-color: #000;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.text-footer {
+    color: #fff;
+}
